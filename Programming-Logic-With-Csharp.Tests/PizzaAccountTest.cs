@@ -15,7 +15,7 @@ namespace Programming_Logic_With_Csharp.Tests
         {
             PizzaAccount calcPizzaAccount = new();
 
-            decimal result = calcPizzaAccount.CalcPizzaAccount(90, 3);
+            decimal result = calcPizzaAccount.CalcPizzaAccount(90m, 3);
 
             Assert.Equal(30, result);
         }
